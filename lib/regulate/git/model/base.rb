@@ -6,6 +6,10 @@ module Regulate
 
       # Our standard base class for all git resources
       class Base
+
+        # Requires
+        require 'json'
+
         # Standard ActiveModel includes so that our resources are Rails friendly
         include ActiveModel::Validations
         include ActiveModel::Conversion
