@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "regulate"
 
   s.add_dependency "abstract_auth", "~> 0.1.3"
-  s.add_dependency "grit", "~> 2.3.0"
+  s.add_dependency "grit", "~> 2.4.0"
   s.add_dependency "json", "~> 1.4.6"
   s.add_dependency "rails", "~> 3.0.0"
   s.add_development_dependency "bluecloth", "~> 2.0.9"
